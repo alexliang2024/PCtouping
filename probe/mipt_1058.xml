@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root configId="3862886" xmlns="urn:schemas-upnp-org:device-1-0" xmlns:dlna="urn:schemas-dlna-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>1</minor>
+  </specVersion>
+  <device>
+    <deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
+    <friendlyName>B863AV3.1-M2</friendlyName>
+    <manufacturer></manufacturer>
+    <manufacturerURL>http://www.mobee.tv</manufacturerURL>
+    <modelDescription>MiPT AV Media Renderer Device</modelDescription>
+    <modelName></modelName>
+    <modelNumber>01.03.29</modelNumber>
+    <modelURL>http://www.mobee.tv</modelURL>
+    <UDN>uuid:020000000000</UDN>
+    <dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMR-1.50</dlna:X_DLNADOC>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:AVTransport</serviceId>
+        <SCPDURL>/AVTransport/020000000000/scpd.xml</SCPDURL>
+        <controlURL>/AVTransport/020000000000/control.xml</controlURL>
+        <eventSubURL>/AVTransport/020000000000/event.xml</eventSubURL>
+      </service>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+        <SCPDURL>/ConnectionManager/020000000000/scpd.xml</SCPDURL>
+        <controlURL>/ConnectionManager/020000000000/control.xml</controlURL>
+        <eventSubURL>/ConnectionManager/020000000000/event.xml</eventSubURL>
+      </service>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:RenderingControl</serviceId>
+        <SCPDURL>/RenderingControl/020000000000/scpd.xml</SCPDURL>
+        <controlURL>/RenderingControl/020000000000/control.xml</controlURL>
+        <eventSubURL>/RenderingControl/020000000000/event.xml</eventSubURL>
+      </service>
+    </serviceList>
+  </device>
+</root>
